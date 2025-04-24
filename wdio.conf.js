@@ -53,11 +53,14 @@ exports.config = {
     //
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
-        platformName: 'Android',
-        browserName: 'Chrome',
-        'appium:deviceName': 'Android GoogleAPI Emulator',
-        'appium:platformVersion': '12.0',
-        'appium:automationName': 'UiAutomator2'
+        'appium:platformName': 'Android',
+       // browserName: 'Chrome',
+        'appium:deviceName': 'Pixel 8a',
+        'appium:platformVersion': '14.0',
+        'appium:automationName': 'UiAutomator2',
+        'appium:app': '/Users/crifa/APPAUTOMATIONJOBLINK/app/android/JobLinkPRESTAGINGvc548CANARY2FWUpdate.apk',
+        'appium:autoGrantPermissions': true
+        //'appium:chromedriverAutodownload': true // chatgpt suggestion
     }],
 
     //
